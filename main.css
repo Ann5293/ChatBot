@@ -1,0 +1,39 @@
+.logo {
+  width:20px;
+  height:18px;
+}
+
+/* Card Header */
+.profile {
+  width:45px;
+  height:45px;
+}
+
+/* Card Content */
+.content {
+  height: auto;
+  min-height: 300px;
+}
+
+.bgclr{
+  background-color: aliceblue;
+}
+
+/* Card Footer */
+.submitBtn {
+  display: flex;
+  align-items: center; 
+}
+
+.btn-icon {
+  width: 16px; 
+  height: auto;
+  margin-right: 5px;
+}
+
+.footer {
+  /* position: fixed; */
+  left: 0;
+  bottom: 0;
+  /* background-color: #00001c; */
+}
