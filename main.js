@@ -70,6 +70,7 @@ $('#message-input').on('keydown', function(e) {
         e.preventDefault();
         
         $('#send-button').click();
+        window.location.href = '#message-input';
     }
 });
 
