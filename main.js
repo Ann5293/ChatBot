@@ -28,8 +28,10 @@ function handleUserInput(message) {
     // Check different scenarios
     let jamieResponse;
 
-
-    if (lowercaseMessage.endsWith('?')) {
+    if (message === '/help'){
+        jamieResponse = 'You can try send</br><li>Message end with "?"</li><li>Message with "Jamie"</li><li>Message with "!"</li><li>Message Upper Case with "!"</li><li>Message with text only</li>';
+    }
+    else if (lowercaseMessage.endsWith('?')) {
         jamieResponse = 'Yes';
 
     } else if (lowercaseMessage.trim() === 'jamie') {
